@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+.container {
+  width: 20vw;
+  display: none;
+  position: absolute;
+  right: 0;
+  margin: 3vh 3vh;
+  height: auto;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 10vh;
+  background-color: #111825;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.header > h1 {
+  margin-left: 1.6vh;
+}
+
+.option-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #111825;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.menu-option {
+  width: 95%;
+  height: 5vh;
+  background-color: #111825;
+  margin-top: 0.7vh;
+
+  color: #6d6a7c;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.menu-option > span {
+  margin-left: 1vh;
+}
+
+.menu-option:hover {
+  background-color: #282f3b;
+}
+
+.menu-option:last-of-type {
+  margin-bottom: 1.4vh;
+}
